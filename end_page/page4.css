@@ -1,0 +1,105 @@
+ *{
+    padding: 0px;
+    margin: 9px;
+    box-sizing: border-box;
+    font-family: system-u;
+
+ }
+ body{
+    background-color: whitesmoke;
+ }
+ #container{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+ }
+ #box{
+    width: 100%;  
+    color: gray;
+    display: flex;
+   flex-direction: column;
+   background-color: #e5ebf9;
+ }
+ /* .lis{
+
+ } */
+ .lis ul li{
+    display: inline-block;
+    margin-left: 10%;
+    padding-right: 15px;
+    font-size: 13px;
+    font-family: 'Asap', sans-serif;
+
+
+ }
+ .rad{
+    position: relative;
+    bottom: 25px;
+
+ }
+ .rad input{
+    margin-left: 22%;
+    position: relative;
+    right: 100px;
+ }
+ .rad input:after {
+    content: '';
+    position: absolute;
+    left: 13px;
+    top: 6px;
+    height:2px;
+    width: 310px;
+    background-color:#c3bebe;
+}
+.rad input:last-child:after{
+    content: none;
+}
+.minipara{
+     text-align: center;
+}
+.minipara p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+     width: 35%;
+     margin: -33px auto;
+}
+#textbox {
+    width: 100%;
+    margin: 60px auto;
+    display: flex;
+    padding: 10px;
+}
+.fill{
+    width: 44%;
+    margin: 0px auto;
+    border: 1px solid #bfb1b1;
+    background-color: white;
+}
+.fill h3{
+    font-family: 'Asap', sans-serif;
+    margin: 10px 0px 20px 30px;
+}
+.fill input{
+    width: 40%;
+    padding-left: 10px;
+    margin: 10px 0px 16px 20px;
+    font-family: 'Asap', sans-serif;
+}
+.fill span input{
+    width: 17%;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 10%;
+    height: 25px;
+    /* paddin: 6x;/ */
+    background-color: #47d7d7;
+    color: #fff;
+    border: 1px solid #3482f9;
+    font-size: 14px;
+    border-radius: 3px;
+
+}
